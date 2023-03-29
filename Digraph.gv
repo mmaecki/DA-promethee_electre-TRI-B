@@ -1,45 +1,20 @@
 digraph {
-	"Seat Ibiza 1.2 white" [label="Seat Ibiza 1.2 white"]
-	"Seat Ibiza 1.4 green" [label="Seat Ibiza 1.4 green"]
-	"Skoda Fabia grey" [label="Skoda Fabia grey"]
-	"Nissan Note grey" [label="Nissan Note grey"]
-	"MINI Cooper 1.6 blue" [label="MINI Cooper 1.6 blue"]
-	"Opel Corsa white" [label="Opel Corsa white"]
-	"Toyota Yaris 1.3 grey" [label="Toyota Yaris 1.3 grey"]
-	"Citroen DS3 red" [label="Citroen DS3 red"]
-	"Volkswagen Polo 1.2 white" [label="Volkswagen Polo 1.2 white"]
-	"Toyota Yaris 1.0 white" [label="Toyota Yaris 1.0 white"]
-	"Abarth Grande Punto white" [label="Abarth Grande Punto white"]
-	"MINI Cooper 1.5 grey" [label="MINI Cooper 1.5 grey"]
-	"Volkswagen Polo 1.2 red" [label="Volkswagen Polo 1.2 red"]
-	"Hyundai i20 white" [label="Hyundai i20 white"]
-	"Peugeot 208 red" [label="Peugeot 208 red"]
-	"Audi A1 black" [label="Audi A1 black"]
-	"Alfa Romeo Giuletta white" [label="Alfa Romeo Giuletta white"]
-	"Toyota Prius black" [label="Toyota Prius black"]
-	"Ford Fiesta blue" [label="Ford Fiesta blue"]
-	"Mercedes w116 brown" [label="Mercedes w116 brown"]
-	"Audi A1 red" [label="Audi A1 red"]
-	"Jaguar xj red" [label="Jaguar xj red"]
-	"Toyota Prius black" -> "Mercedes w116 brown"
-	"Abarth Grande Punto white" -> "Toyota Prius black"
-	"Hyundai i20 white" -> "Abarth Grande Punto white"
-	"Jaguar xj red" -> "Hyundai i20 white"
-	"MINI Cooper 1.5 grey" -> "Jaguar xj red"
-	"Volkswagen Polo 1.2 white" -> "MINI Cooper 1.5 grey"
-	"Skoda Fabia grey" -> "Volkswagen Polo 1.2 white"
-	"Toyota Yaris 1.0 white" -> "Skoda Fabia grey"
-	"Nissan Note grey" -> "Toyota Yaris 1.0 white"
-	"Seat Ibiza 1.4 green" -> "Nissan Note grey"
-	"Opel Corsa white" -> "Seat Ibiza 1.4 green"
-	"Alfa Romeo Giuletta white" -> "Opel Corsa white"
-	"Toyota Yaris 1.3 grey" -> "Alfa Romeo Giuletta white"
-	"Seat Ibiza 1.2 white" -> "Toyota Yaris 1.3 grey"
-	"Volkswagen Polo 1.2 red" -> "Seat Ibiza 1.2 white"
-	"MINI Cooper 1.6 blue" -> "Volkswagen Polo 1.2 red"
-	"Audi A1 black" -> "MINI Cooper 1.6 blue"
-	"Audi A1 red" -> "Audi A1 black"
-	"Citroen DS3 red" -> "Audi A1 red"
-	"Ford Fiesta blue" -> "Citroen DS3 red"
-	"Peugeot 208 red" -> "Ford Fiesta blue"
+	a1 [label=a1]
+	a2 [label=a2]
+	a3 [label=a3]
+	a4 [label=a4]
+	a5 [label=a5]
+	a6 [label=a6]
+	a7 [label=a7]
+	a8 [label=a8]
+	a1 -> a6
+	a1 -> a8
+	a2 -> a4
+	a4 -> a3
+	a5 -> a2
+	a6 -> a5
+	a6 -> a7
+	a7 -> a3
+	a8 -> a5
+	a8 -> a7
 }
